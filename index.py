@@ -29,3 +29,11 @@ print(person["name"])
 print(person["role"])
 person["country"]="india"
 print(person)
+myage=31
+if myage>18:
+    print("you are elegible ")
+else:
+    print("you are not elegible")
+
+for name in students:
+    print(name)
