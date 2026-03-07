@@ -18,3 +18,9 @@ gosti={
 for key in gosti :
     if key=="kanha":
         print(gosti[key])
+
+for key in gosti:
+    if gosti[key]>30:
+        print(key," is greater than 30")
+    else:
+        print(key,"is less than 30")
